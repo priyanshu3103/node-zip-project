@@ -1,0 +1,11 @@
+{
+  "name": "node-zip-project",
+  "version": "1.0.0",
+  "description": "A simple Node.js project that creates a ZIP file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "zip -r project.zip * .[^.]* -x \"node_modules/*\" \"*.zip\""
+  },
+  "dependencies": {}
+}

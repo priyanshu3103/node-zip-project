@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "zip -r project.zip * .[^.]* -x \"node_modules/*\" \"*.zip\""
+    "build": "zip -r ui-build.zip.zip * .[^.]* -x \"node_modules/*\" \"*.zip\""
   },
   "dependencies": {}
 }
